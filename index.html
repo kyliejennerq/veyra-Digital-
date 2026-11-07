@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veyra Digital | Digital Experiences</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#090909;color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:25px 8%}
+.logo{font-size:25px;font-weight:bold;letter-spacing:2px}
+.logo span{color:#c5a46d}
+nav a{color:white;text-decoration:none;margin-left:25px;font-size:14px}
+.hero{min-height:85vh;display:flex;flex-direction:column;justify-content:center;padding:80px 10%;background:linear-gradient(90deg,#090909,#171717)}
+.tag{color:#c5a46d;letter-spacing:4px;font-size:12px;margin-bottom:25px}
+h1{font-size:clamp(45px,8vw,90px);line-height:1.05;max-width:850px}
+h1 span{color:#c5a46d}
+.hero p{color:#aaa;max-width:500px;line-height:1.8;margin:25px 0}
+.btn{display:inline-block;background:#c5a46d;color:#090909;padding:16px 30px;text-decoration:none;font-weight:bold;margin-top:15px}
+section{padding:90px 10%}
+h2{font-size:40px;margin-bottom:25px}
+.about{background:#111}
+.about p{color:#aaa;line-height:1.9;max-width:700px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:35px}
+.card{border:1px solid #333;padding:35px 25px}
+.card h3{color:#c5a46d;margin-bottom:15px}
+.card p{color:#aaa;line-height:1.7}
+.contact{background:#111;text-align:center}
+footer{text-align:center;padding:30px;color:#777;font-size:13px}
+@media(max-width:600px){nav a{margin-left:10px;font-size:12px}header{padding:20px 5%}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">VEYRA<span>.</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div class="tag">CREATIVE DIGITAL AGENCY</div>
+<h1>We build digital experiences that <span>matter.</span></h1>
+<p>We help ambitious businesses establish their digital presence through thoughtful design, modern websites and creative digital solutions.</p>
+<a class="btn" href="#contact">LET'S WORK TOGETHER ↗</a>
+</div>
+
+<section class="about" id="about">
+<div class="tag">WHO WE ARE</div>
+<h2>Digital creativity meets strategy.</h2>
+<p>Veyra Digital is a creative digital studio focused on helping brands stand out online. We combine clean design, thoughtful strategy and modern technology to create meaningful digital experiences.</p>
+</section>
+
+<section id="services">
+<div class="tag">WHAT WE DO</div>
+<h2>Our Services</h2>
+<div class="services">
+<div class="card"><h3>Web Design</h3><p>Beautiful, modern websites designed to represent your brand.</p></div>
+<div class="card"><h3>Web Development</h3><p>Responsive and functional websites built for your business.</p></div>
+<div class="card"><h3>Brand Identity</h3><p>Creative digital identities that make your business memorable.</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="tag">HAVE A PROJECT?</div>
+<h2>Let's create something great.</h2>
+<p style="color:#aaa;margin:20px">Ready to take your business online?</p>
+<a class="btn" href="mailto:hello@veyradigital.com">CONTACT US ↗</a>
+</section>
+
+<footer>© 2026 Veyra Digital. All rights reserved.</footer>
+</body>
+</html>
